@@ -1,47 +1,88 @@
 body {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
+  font-family: "ExcellenceInMotion";
+  font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+  background-color: white;
 }
 
 header {
-  width: 1024px;
+  margin-top: 10px;
+  font-family: "ExcellenceInMotion";
+  width: 1150px;
   display: flex;
-  background-color: green;
-  margin: auto;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+h1 {
+  line-height: 64px;
+  letter-spacing: 0.1em;
+  font-family: "Trip Sans";
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ff5d5d;
+}
+
+h2 {
+  line-height: 33px;
+
+  font-family: "Trip Sans";
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+
+h3 {
+  line-height: 33px;
+  font-family: "Trip Sans";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
 }
 
 .header {
   display: flex;
+  justify-content: flex-end;
+  flex: 1;
   flex-direction: row;
-  align-items: baseline;
-  padding-left: 20px;
+  align-items: center;
 }
 .connect2 {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .connect {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Trip Sans";
   background-color: black;
   color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   line-height: 20px;
-  padding: 10px;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 20px;
 }
 
 .searsh {
   width: 20em;
 }
+header i {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 header p {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 14px;
+  font-family: "Trip Sans";
+  font-weight: bold;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 100;
   text-align: center;
@@ -52,5 +93,100 @@ header p {
   justify-content: center;
 }
 
+main {
+  width: 1150px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 1150px;
+  display: flex;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  border: black solid 1px;
+  border-radius: 10px;
+}
+
+nav i {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.section {
+  display: flex;
+}
+
+section p {
+  margin-top: 10px;
+  font-size: 50 px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.gallery {
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.bloc1 img {
+  object-fit: cover;
+  width: 780px;
+  height: 434px;
+}
+
+.bloc2 img {
+  margin-left: 10px;
+  object-fit: cover;
+  width: 360px;
+}
+
+.description {
+  margin: 20px 0px 20px 0px;
+  max-width: 50%;
+}
+
+.description p {
+  font-family: "ExcellenceInMotion";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  text-align: justify;
+}
 /*rose: #ff5d5d;*/
 /*"https://res.cloudinary.com/dyj84szrx/image/upload/c_scale,w_360/v1635259000/Tripadvisor_xnqg3r.svg"*/
+section p {
+  font-family: "ExcellenceInMotion";
+  text-align: justify;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.sectionText {
+  max-width: 20%;
+}
