@@ -1,0 +1,56 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  width: 1024px;
+  display: flex;
+  background-color: green;
+  margin: auto;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-left: 20px;
+}
+.connect2 {
+  display: flex;
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.searsh {
+  width: 20em;
+}
+
+header p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.logo {
+  margin-right: 20px;
+  justify-content: center;
+}
+
+/*rose: #ff5d5d;*/
+/*"https://res.cloudinary.com/dyj84szrx/image/upload/c_scale,w_360/v1635259000/Tripadvisor_xnqg3r.svg"*/
