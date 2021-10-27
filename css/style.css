@@ -1,5 +1,5 @@
 body {
-  font-family: "ExcellenceInMotion";
+  font-family: "Trip Sans";
   font-weight: normal;
   font-style: normal;
   font-weight: normal;
@@ -9,7 +9,7 @@ body {
 
 header {
   margin-top: 10px;
-  font-family: "ExcellenceInMotion";
+  font-family: "Trip Sans";
   width: 1150px;
   display: flex;
   background-color: white;
@@ -22,7 +22,7 @@ header {
 h1 {
   line-height: 64px;
   letter-spacing: 0.1em;
-  font-family: "Trip Sans";
+  font-family: "Trip Sans med";
   font-weight: bolder;
   font-size: 40px;
   color: #ff5d5d;
@@ -80,7 +80,9 @@ header i {
 }
 
 header p {
-  font-family: "Trip Sans";
+  font-family: "Trip Sans med";
+  font-weight: 500;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -110,6 +112,11 @@ nav {
   margin-right: auto;
 }
 
+nav p {
+  font-family: "Trip Sans med";
+  font-weight: 500;
+}
+
 .nav {
   margin: 10px;
   padding: 10px;
@@ -136,6 +143,7 @@ section p {
   font-size: 50 px;
   font-style: italic;
   line-height: 20px;
+  font-family: "Trip Sans med";
 }
 
 .gallery {
@@ -188,5 +196,69 @@ section p {
 }
 
 .sectionText {
-  max-width: 20%;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.caroussel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+
+  flex: 3;
+}
+.immanquable {
+  display: flex;
+  border: 1px solid red;
+  margin-right: 20px;
+}
+
+.legend {
+}
+
+.caroussel div {
+  width: 200px;
+  height: 600px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.caroussel img {
+  height: 50%;
+  object-fit: cover;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloc div {
+  display: flex;
+
+  background-color: blueviolet;
+  border: 1px solid blue;
+}
+
+.bloc p {
+  font-family: "Trip Sans";
+}
+
+.carousselST {
+  color: #545454;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.carousseRating {
+  color: #333333;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.carousseCat {
+  color: #333333;
+  font-size: 14px;
+  line-height: 17px;
 }
