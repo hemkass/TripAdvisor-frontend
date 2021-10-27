@@ -108,8 +108,6 @@ nav {
   width: 1150px;
   display: flex;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 nav p {
@@ -117,15 +115,18 @@ nav p {
   font-weight: 500;
 }
 
-.nav {
-  margin: 10px;
-  padding: 10px;
+nav div {
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex: 1;
   border: black solid 1px;
   border-radius: 10px;
+}
+
+nav div:not(:last-child) {
+  margin-right: 10px;
 }
 
 nav i {
@@ -138,6 +139,10 @@ nav i {
   display: flex;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 section p {
   margin-top: 10px;
   font-size: 50 px;
@@ -147,9 +152,10 @@ section p {
 }
 
 .gallery {
-  flex-direction: row;
+  height: 430px;
+
   display: flex;
-  flex: 1;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -173,17 +179,28 @@ section p {
   top: 390px;
   padding: 7px;
 }
+.bloc1 {
+  flex: 1;
+  height: 100%;
+  margin-right: 2px;
+}
+
+.bloc2 {
+  width: 480px;
+  height: 100%;
+}
 
 .bloc1 img {
   object-fit: cover;
-  width: 780px;
-  height: 434px;
+  height: 100%;
+  width: 100%;
 }
 
 .bloc2 img {
   margin-left: 10px;
   object-fit: cover;
-  width: 360px;
+  width: 97%;
+  height: calc(50% - 1.5px);
 }
 
 .description {
@@ -296,4 +313,21 @@ section p {
 }
 
 footer {
+  border-top: solid 1px #ff5d5d;
+  margin-top: 50px;
+}
+
+.wrapper {
+  background-color: white;
+  margin-top: 20px;
+  font-family: "Trip Sans";
+  width: 1150px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+footer img {
+  width: 20px;
 }
