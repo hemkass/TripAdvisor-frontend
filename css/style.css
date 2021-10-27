@@ -150,11 +150,28 @@ section p {
   flex-direction: row;
   display: flex;
   flex: 1;
+  position: relative;
 }
 
 .gallery img {
   object-fit: cover;
   width: 100%;
+  position: relative;
+}
+.gallery i {
+  margin: 3px;
+}
+.gallery button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-family: inherit;
+  position: absolute;
+  z-index: 2;
+  top: 390px;
+  padding: 7px;
 }
 
 .bloc1 img {
@@ -205,20 +222,37 @@ section p {
   overflow: hidden;
   overflow-x: scroll;
   flex: 3;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+/*.caroussel::-webkit-scrollbar {
+  display: none;
+}*/
+
 .immanquable {
   display: flex;
-
-  height: 300px;
+  height: 310px;
+  margin-bottom: 20px;
 }
 
 .caroussel div {
   margin-right: 10px;
+  position: relative;
 }
 
 .caroussel img {
-  width: 260px;
+  width: 280px;
   object-fit: cover;
+  position: relative;
+}
+
+.caroussel i {
+  font-size: 25px;
+  z-index: 2;
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 220px;
 }
 
 .bloc {
@@ -251,4 +285,15 @@ section p {
   color: #333333;
   font-size: 14px;
   line-height: 17px;
+}
+
+.next {
+  font-size: 50px;
+  z-index: 3;
+  position: absolute;
+  padding-top: 75px;
+  padding-left: 1130px;
+}
+
+footer {
 }
