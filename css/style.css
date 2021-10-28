@@ -387,7 +387,8 @@ footer img {
 
   .gallery button {
     top: 260px;
-    padding: 7px;
+    left: 15px;
+    padding: 6px;
   }
 
   .legend p {
@@ -431,9 +432,7 @@ footer img {
   header div {
     display: flex;
     justify-items: center;
-
     background-color: white;
-
     justify-content: space-between;
   }
 
@@ -448,7 +447,7 @@ footer img {
   }
 
   header {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     width: 95vw;
     display: flex;
     background-color: white;
@@ -457,6 +456,12 @@ footer img {
 
   header > :nth-child(-n + 5) {
     display: none;
+  }
+
+  header i {
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .hidden-header {
