@@ -127,9 +127,30 @@
   .description p {
     font-size: 16px;
     line-height: 21px;
+    width: 95vw;
   }
 
   .description {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+  }
+
+  .immanquable {
+    flex-direction: column;
+    width: 95vw;
+    height: 650px;
+  }
+
+  .caroussel img {
+    width: 70vw;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .caroussel i {
+    font-size: 25px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 65vw;
   }
 }
