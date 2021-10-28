@@ -7,6 +7,9 @@ body {
   background-color: white;
 }
 
+.hidden-header {
+  display: none;
+}
 header {
   margin-top: 10px;
   font-family: "Trip Sans";
@@ -16,6 +19,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   flex-direction: row-reverse;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -23,7 +27,7 @@ h1 {
   line-height: 64px;
   letter-spacing: 0.1em;
   font-family: "Trip Sans med";
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 40px;
   color: #ff5d5d;
 }
@@ -31,7 +35,7 @@ h1 {
 h2 {
   line-height: 33px;
 
-  font-family: "Trip Sans";
+  font-family: "Trip Sans med";
   font-weight: bold;
   font-size: 28px;
   color: black;
@@ -39,24 +43,36 @@ h2 {
 
 h3 {
   line-height: 33px;
-  font-family: "Trip Sans";
+  font-family: "Trip Sans med";
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   color: black;
 }
 
-.header {
+header div {
   display: flex;
   justify-content: flex-end;
   flex: 1;
   flex-direction: row;
   align-items: center;
 }
+
+header div:nth-last-child(4) {
+  flex: 7;
+  justify-content: stretch;
+}
+
+header div:nth-child(1) {
+  flex: 2;
+  justify-content: stretch;
+}
+
 .connect2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex: 2;
 }
 
 .connect {
@@ -70,9 +86,6 @@ h3 {
   margin-left: 20px;
 }
 
-.searsh {
-  width: 20em;
-}
 header i {
   font-size: 16px;
   margin-right: 10px;
@@ -179,10 +192,21 @@ section p {
   top: 390px;
   padding: 7px;
 }
+
+.legend p {
+  margin-top: 10px;
+  font-size: 10 px;
+  font-style: italic;
+  line-height: 14px;
+  font-family: "Trip Sans";
+  color: #333333;
+}
+
 .bloc1 {
   flex: 1;
   height: 100%;
   margin-right: 2px;
+  position: relative;
 }
 
 .bloc2 {
@@ -194,6 +218,7 @@ section p {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .bloc2 img {
@@ -330,4 +355,136 @@ footer {
 
 footer img {
   width: 20px;
+}
+
+/*  Responsive sous 768px. */
+@media (max-width: 768px) {
+  body {
+    margin-left: 20px;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .bloc2 {
+    display: none;
+  }
+
+  .gallery {
+    height: 300px;
+    width: 100vw;
+    margin-bottom: 40px;
+    margin-left: -20px;
+  }
+
+  .gallery img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .gallery button {
+    top: 260px;
+    padding: 7px;
+  }
+
+  .legend p {
+    display: none;
+  }
+
+  nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100vw;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+  }
+
+  nav div {
+    padding: 17px;
+    flex: 1;
+    align-items: center;
+    border: black solid 1px;
+    border-radius: 10px;
+  }
+
+  nav div p {
+    font-size: 16 px;
+    line-height: 20px;
+    flex: 1;
+  }
+
+  nav div:nth-child(2) p {
+    width: 170px;
+  }
+
+  nav div:nth-child(5) p {
+    width: 170px;
+  }
+
+  header div {
+    display: flex;
+    justify-items: center;
+
+    background-color: white;
+
+    justify-content: space-between;
+  }
+
+  header div:nth-child(7) {
+    justify-content: center;
+  }
+
+  header div:nth-last-child(3) {
+    flex: 1;
+    justify-content: stretch;
+    background-color: white;
+  }
+
+  header {
+    margin-bottom: 15px;
+    width: 95vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+  }
+
+  header > :nth-child(-n + 5) {
+    display: none;
+  }
+
+  .hidden-header {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    line-height: 32px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    line-height: 33px;
+    font-size: 28px;
+  }
+
+  section {
+    margin-bottom: 50px;
+  }
+
+  .description p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .description {
+    margin-bottom: 70px;
+  }
 }
