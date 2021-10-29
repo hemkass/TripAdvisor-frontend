@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Import du fichier main.js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Import de axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Formulaire Frontend</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Formulaire de contact</h1>
+
+      <button id="display-text-btn">Afficher le texte</button>
+      <button id="hide-text-btn">Cacher le texte</button>
+      <button id="display-hide-text-btn">Afficher ou cacher le texte</button>
+      <p class="hidden" id="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam
+        recusandae laudantium necessitatibus, libero id, consectetur assumenda
+        corporis dolor at magni rerum non nemo corrupti voluptate, vel aliquid
+        tempore veniam?
+      </p>
+
+      <form id="contact-form">
+        <input type="text" placeholder="firstname" id="firstname" />
+
+        <input type="text" placeholder="lastname" id="lastname" />
+
+        <input type="email" placeholder="email" id="email" />
+
+        <!-- <input type="password" placeholder="password" /> -->
+
+        <textarea
+          rows="5"
+          cols="30"
+          placeholder="message"
+          id="message"
+        ></textarea>
+
+        <input type="submit" value="Envoyer le formulaire" />
+      </form>
+    </div>
+
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        console.log("Page chargée");
+      });
+    </script> -->
+  </body>
+</html>

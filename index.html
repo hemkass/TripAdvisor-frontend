@@ -14,56 +14,67 @@
     />
 
     <!-- Import  feuilles CSS -->
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
-    <link rel="stylesheet" href="./css/ResponsiveMobileCSS.css" />
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/base/font.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/responsive/ResponsiveMobileCSS.css"
+    />
 
     <script
       src="https://kit.fontawesome.com/30c947532d.js"
       crossorigin="anonymous"
     ></script>
 
+    <!-- Import du fichier main.js -->
+    <script src="/javascript/index.js"></script>
+
+    <!-- Import de axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <title>Tourisme à Paris 2021 : visiter Paris</title>
   </head>
 
   <body>
     <header>
-      <div class="connect2"><span class="connect">connectez-vous</span></div>
+      <div class="formbutton"><span>connectez-vous</span></div>
 
-      <div class="header">
+      <div>
         <i class="far fa-bell"></i>
         <p>alerte</p>
       </div>
 
-      <div class="header">
+      <div>
         <i class="far fa-heart"></i>
         <p>voyage</p>
       </div>
 
-      <div class="header">
+      <div>
         <i class="fas fa-pencil-alt"></i>
         <p>avis</p>
       </div>
-      <div class="header">
+
+      <div>
         <i class="fas fa-search"></i>
         <div class="searsh"></div>
       </div>
 
-        <div class="hidden-header"><div class="searsh"></div>
-        <i class="fas fa-search"></i>
-        </div>
-
-
-     <div> <img
-        class="logo"
-        src="https://res.cloudinary.com/dyj84szrx/image/upload/c_lpad,w_200/v1635259000/Tripadvisor_xnqg3r.jpg" 
-      /></div>
- <div class="hidden-header">
-       <i class="fas fa-bars"></i>
+      <div class="hidden-header">
         <div class="searsh"></div>
+        <i class="fas fa-search"></i>
       </div>
-    
+
+      <div>
+        <img
+          class="logo"
+          src="https://res.cloudinary.com/dyj84szrx/image/upload/c_lpad,w_200/v1635259000/Tripadvisor_xnqg3r.jpg"
+        />
+      </div>
+
+      <div class="hidden-header">
+        <i class="fas fa-bars"></i>
+      </div>
     </header>
     <main>
       <h1>Explorez <span style="color: black">Paris</span></h1>
@@ -72,39 +83,62 @@
           <p>Hôtel</p>
           <i class="fas fa-bed"></i>
         </div>
-        <div >
+
+        <div>
           <p>locations de vacances</p>
           <i class="fas fa-key"></i>
         </div>
+
         <div>
           <p>Activités</p>
           <i class="fas fa-road"></i>
         </div>
+
         <div>
           <p>Restaurants</p>
           <i class="fas fa-utensils"></i>
         </div>
-        <div >
+
+        <div>
           <p>Forums de voyage</p>
           <i class="far fa-comment-dots"></i>
         </div>
+
         <div>
           <p>Plus</p>
           <i class="fas fa-ellipsis-h"></i>
         </div>
+
+        <div class="hiddenCat">
+          <p>Vols</p>
+          <i class="fas fa-plane"></i>
+        </div>
+
+        <div class="hiddenCat">
+          <p>Croisières</p>
+          <i class="fas fa-ship"></i>
+        </div>
+
+        <div class="hiddenNav">
+          <div class="hiddenNav"><i class="fas fa-chevron-right"></i></div>
+
+          <div class="hiddenNav"><i class="fas fa-chevron-left"></i></div>
+        </div>
       </nav>
+
       <div>
         <div class="gallery">
-          
-          <div class="bloc1"><button><i class="far fa-images"></i>Toutes les photos</button><img src="assets/media/paris1.jpg" /></div>
+          <div class="bloc1">
+            <button><i class="far fa-images"></i>Toutes les photos</button
+            ><img src="assets/media/paris1.jpg" />
+          </div>
           <div class="bloc2">
             <img src="assets/media/paris2.jpg" /><img
               src="assets/media/paris3.jpg"
             />
           </div>
-        </div><div class="legend"><p>Europe > France > Île-de-France > Paris</p></div>
-        
-        
+        </div>
+        <div class="legend"><p>Europe > France > Île-de-France > Paris</p></div>
       </div>
       <div class="description">
         <h2>La Ville Lumière éblouit en tous points</h2>
@@ -121,7 +155,7 @@
       <section class="immanquable">
         <div class="sectionText">
           <h3>Paris : les immanquables</h3>
-         <h4>Se divertir</h4>
+          <h4>Se divertir</h4>
           <p>
             Des lieux à voir, des rues à explorer et des expériences
             emblématiques à Paris.
@@ -236,15 +270,45 @@
     </main>
     <footer>
       <div class="wrapper">
-      <a href="https://www.lereacteur.io/?utm_source=googleads"
-        ><img src="assets/icones/reacteur.jpeg" alt="Le réacteur" />
-      </a>
-      Made at
-      <a href="https://www.lereacteur.io/?utm_source=googleads">
-        Le Réacteur
-      </a>
-      by
-      <a href="https://github.com/hemkass?tab=repositories">Marine corbel</a> - 2021
-    </footer></div>
+        <a href="https://www.lereacteur.io/?utm_source=googleads"
+          ><img src="assets/icones/reacteur.jpeg" alt="Le réacteur" />
+        </a>
+        Made at
+        <a href="https://www.lereacteur.io/?utm_source=googleads">
+          Le Réacteur
+        </a>
+        by
+        <a href="https://github.com/hemkass?tab=repositories">Marine corbel</a>
+        - 2021
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal hidden">
+      <div class="form-content" #Myform>
+        <div>
+          <h4>Formulaire de contact</h4>
+          <i class="icon-times fa-solid fa-xmark"></i>
+          <form id="contact-form">
+            <input type="text" placeholder="Firstname" id="firstname" ; />
+
+            <input type="text" placeholder="Lastname" id="lastname" />
+
+            <input type="email" placeholder="email" id="email" />
+
+            <!-- <input type="password" placeholder="password" /> -->
+
+            <textarea
+              rows="5"
+              cols="30"
+              placeholder="Ecrivez ici votre message"
+              id="message"
+            ></textarea>
+
+            <input type="submit" value="Envoyer " />
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

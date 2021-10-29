@@ -1,0 +1,23 @@
+{
+  "name": "air-bnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemkass/TripAdvisor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemkass/TripAdvisor/issues"
+  },
+  "homepage": "https://github.com/hemkass/TripAdvisor#readme"
+}

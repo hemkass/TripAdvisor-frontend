@@ -230,6 +230,18 @@
     color: white;
   }
 
+  .form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    width: 90vw;
+  }
+
+  .form > h1 {
+    text-align: center;
+  }
+
   /*footer */
   .wrapper {
     width: 95vw;

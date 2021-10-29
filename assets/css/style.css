@@ -351,6 +351,93 @@ section p {
   padding-top: 75px;
   padding-left: 1130px;
 }
+/* form */
+
+form {
+  font-family: "Trip Sans med";
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.modal {
+  display: flex; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 50; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+}
+
+.form-content div h4 {
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-content {
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+
+  background-color: white;
+  height: 600px;
+}
+
+form input,
+form textarea {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: "Trip Sans med";
+  color: #333333;
+  padding: 20px;
+  border: black solid 2px;
+}
+
+form input:nth-last-child(1) {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Trip Sans med";
+  background-color: #35e1a1;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  width: 200px;
+}
+
+/* The Close Button */
+.form-container div i {
+  background-color: brown;
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  z-index: 100;
+}
+
+.form-container i:hover {
+  color: black;
+  cursor: pointer;
+}
 
 /* Footer  */
 
