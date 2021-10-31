@@ -13,6 +13,11 @@ $.addEventListener("DOMContentLoaded", () => {
     body.classList.add("disable");
   });
 
+  $.querySelector("#rightScrollButton").addEventListener("click", (e) => {
+    e.preventDefault();
+    $.querySelector("nav").scrollBy(3);
+  });
+
   // fermeture du formulaire
 
   $.querySelector(".icon-times").addEventListener("click", () => {

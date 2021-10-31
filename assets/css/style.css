@@ -30,8 +30,7 @@ h3 {
   line-height: 33px;
   font-family: "Trip Sans med";
   font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 28px;
   color: black;
   margin-bottom: 10px;
 }
@@ -149,6 +148,7 @@ nav div {
   border-radius: 10px;
 }
 nav div p {
+  padding: 17px;
   padding-left: 10px;
   font-family: "Trip Sans med";
   font-weight: 500;
@@ -160,7 +160,7 @@ nav div:not(:last-child) {
 
 nav i {
   font-size: 16px;
-  padding-top: 10px;
+  padding-top: 15px;
   margin-right: 10px;
   margin-left: 10px;
 }

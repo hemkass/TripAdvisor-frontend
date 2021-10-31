@@ -21,7 +21,7 @@
 
   /*header  */
   .logo {
-    width: 50%;
+    width: 90%;
   }
 
   header div {
@@ -50,6 +50,10 @@
   }
 
   header > div:nth-child(-n + 5) {
+    display: none;
+  }
+
+  header button {
     display: none;
   }
 
@@ -110,8 +114,8 @@
     background-color: cadetblue;
     padding: 0px;
     border: none;
-    top: 60px;
-    right: 1vw;
+    top: 7.5vh;
+    right: 0vw;
     z-index: 5;
     position: absolute;
   }
@@ -119,7 +123,7 @@
   main .hiddenNav:nth-child(2) {
     padding: 0px;
     border: none;
-    top: 120px;
+    top: 15vh;
     left: 35px;
     z-index: 5;
     position: absolute;
@@ -161,7 +165,6 @@
   }
 
   nav div i {
-    background-color: coral;
     margin-top: 0px;
     margin-left: 30px;
     padding-top: 0px;
@@ -199,6 +202,10 @@
   /* Section les immanquables  */
   section {
     margin-bottom: 50px;
+  }
+
+  .description {
+    max-width: 90%;
   }
 
   .description p {
