@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "ExcellenceInMotion";
+  src: url("../fonts/ExcellenceInMotion-Bold.eot");
+  src: url("../fonts/ExcellenceInMotion.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ExcellenceInMotion.woff2") format("woff2"),
+    url("../fonts/ExcellenceInMotion.woff") format("woff"),
+    url("../fonts/ExcellenceInMotion.ttf") format("truetype"),
+    url("../fonts/ExcellenceInMotion.svg#ExcellenceInMotion") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ExcellenceInMotion";
+  src: url("../fonts/ExcellenceInMotion-Medium.eot");
+  src: url("../fonts/ExcellenceInMotion-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ExcellenceInMotion-Medium.woff2") format("woff2"),
+    url("../fonts/ExcellenceInMotion-Medium.woff") format("woff"),
+    url("../fonts/ExcellenceInMotion-Medium.ttf") format("truetype"),
+    url("../fonts/ExcellenceInMotion-Medium.svg#ExcellenceInMotion-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ExcellenceInMotion";
+  src: url("../fonts/ExcellenceInMotion-Bold.eot");
+  src: url("../fonts/ExcellenceInMotion-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ExcellenceInMotion-Bold.woff2") format("woff2"),
+    url("../fonts/ExcellenceInMotion-Bold.woff") format("woff"),
+    url("../fonts/ExcellenceInMotion-Bold.ttf") format("truetype"),
+    url("../fonts/ExcellenceInMotion-Bold.svg#ExcellenceInMotion-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans";
+  src: url("../fonts/TripSans-Regular.eot");
+  src: url("../fonts/TripSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TripSans-Regular.woff2") format("woff2"),
+    url("../fonts/TripSans-Regular.woff") format("woff"),
+    url("../fonts/TripSans-Regular.ttf") format("truetype"),
+    url("../fonts/TripSans-Regular.svg#TripSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans med";
+  src: url("../fonts/TripSans-Medium.eot");
+  src: url("../fonts/TripSans-Medium.eot") format("embedded-opentype"),
+    url("../fonts/TripSans-Medium.eot") format("woff2"),
+    url("../fonts/TripSans-Medium.eot") format("woff"),
+    url("../fonts/TripSans-Medium.eot") format("truetype"),
+    url("../fonts/TripSans-Medium.eot") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
