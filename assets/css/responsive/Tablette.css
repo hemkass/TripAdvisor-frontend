@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    width: 97vw;
+  }
+
+header div{justify-content: right;}
+
+
+header div:nth-child(5) {
+justify-content:stretch;
+
+
+  
+}
+
+header div:nth-child(1) {
+justify-content: flex-end;
+ justify-content:stretch;
+width:100px;
+  margin-left: 0px;
+  margin-right: 5px;
+  
+}
+
+
+
+
+header div:nth-child(1) span {
+
+}
+
+header div p{display:none}
+

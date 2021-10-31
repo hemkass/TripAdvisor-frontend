@@ -63,36 +63,6 @@
     display: flex;
   }
 
-  /* Bandeau photos */
-
-  .bloc2 {
-    display: none;
-  }
-
-  .gallery {
-    height: 300px;
-    width: 100vw;
-    margin-bottom: 40px;
-    margin-left: -20px;
-  }
-
-  .gallery img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: relative;
-  }
-
-  .gallery button {
-    top: 260px;
-    left: 15px;
-    padding: 6px;
-  }
-
-  .legend p {
-    display: none;
-  }
-
   /*menu*/
 
   nav {
@@ -136,16 +106,26 @@
     position: absolute;
   }
 
-  nav div:nth-last-child(1) {
+  main .hiddenNav:nth-child(1) {
+    background-color: cadetblue;
     padding: 0px;
     border: none;
-    top: 5px;
-    left: 0vw;
+    top: 60px;
+    right: 1vw;
     z-index: 5;
     position: absolute;
   }
 
-  nav > div > .hiddenNav:nth-child(1) > i {
+  main .hiddenNav:nth-child(2) {
+    padding: 0px;
+    border: none;
+    top: 120px;
+    left: 35px;
+    z-index: 5;
+    position: absolute;
+  }
+
+  main .hiddenNav:nth-child(1) i {
     padding-left: 100px;
     padding-right: 0px;
     font-size: 25px;
@@ -157,7 +137,7 @@
     font-weight: bold;
   }
 
-  nav > div > .hiddenNav:nth-child(2) > i {
+  main .hiddenNav:nth-child(2) i {
     padding-left: 0px;
     padding-right: 100px;
     font-size: 25px;
@@ -169,17 +149,6 @@
     font-weight: bold;
   }
 
-  nav > div > .hiddenNav:nth-child(1) {
-    background-color: rgb(138, 69, 138);
-    padding: 0px;
-    border: none;
-    top: 5px;
-
-    left: 5px;
-    z-index: 5;
-    position: absolute;
-  }
-
   .hiddenCat {
     display: flex;
     position: absolute;
@@ -189,7 +158,45 @@
     align-items: center;
     border: black solid 1px;
     border-radius: 10px;
-  } /* Section les immanquables  */
+  }
+
+  nav div i {
+    background-color: coral;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-top: 0px;
+  }
+  /* Bandeau photos */
+
+  .bloc2 {
+    display: none;
+  }
+
+  .gallery {
+    height: 300px;
+    width: 100vw;
+    margin-bottom: 40px;
+    margin-left: -20px;
+  }
+
+  .gallery img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .gallery button {
+    top: 260px;
+    left: 15px;
+    padding: 6px;
+  }
+
+  .legend p {
+    display: none;
+  }
+
+  /* Section les immanquables  */
   section {
     margin-bottom: 50px;
   }

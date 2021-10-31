@@ -80,11 +80,6 @@ header div:nth-last-child(4) {
   justify-content: stretch;
 }
 
-header div:nth-child(1) {
-  flex: 2;
-  justify-content: stretch;
-}
-
 .hidden-header {
   display: none;
 }
@@ -95,13 +90,13 @@ header div:nth-child(1) {
   flex: 2;
 }
 
-header div:nth-child(1) span {
+.formbutton {
   font-family: "Trip Sans";
   background-color: black;
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   line-height: 20px;
-  padding: 5px;
+  padding: 0px 10px 0px 10px;
   font-size: 16px;
   margin-left: 20px;
 }
@@ -424,14 +419,13 @@ form input:nth-last-child(1) {
 }
 
 /* The Close Button */
-.form-container div i {
-  background-color: brown;
+.form-content i {
   color: rgb(0, 0, 0, 0.5);
   font-size: 20px;
   position: absolute;
   top: 20px;
-  left: 200px;
-  z-index: 100;
+  right: 20px;
+  z-index: 1000;
 }
 
 .form-container i:hover {
